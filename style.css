@@ -122,3 +122,50 @@ li{
     padding:10px 20px;
     border-radius:25px;
 }
+.card{
+    background:white;
+    padding:20px;
+    margin:20px auto;
+    max-width:700px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    color:#764ba2;
+    margin-bottom:10px;
+}
+
+.card p{
+    margin:5px 0;
+}
+#projects{
+    padding:40px 20px;
+}
+
+.card{
+    background:#ffffff;
+    max-width:800px;
+    margin:20px auto;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    transition:0.3s;
+    text-align:center;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    color:#764ba2;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.card p{
+    margin:10px 0;
+    line-height:1.8;
+    color:#555;
+}
